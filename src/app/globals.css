@@ -1,4 +1,5 @@
 /* Updated: 2025-11-21T14:24:38.972Z */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Krona+One&family=Lexend:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -124,6 +125,7 @@
   
   body {
     @apply bg-background text-foreground;
+    font-family: 'Lexend', sans-serif;
   }
 
   @keyframes gradient {

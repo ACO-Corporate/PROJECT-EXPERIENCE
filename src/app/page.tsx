@@ -4,11 +4,15 @@ import HeroSection from "@/components/HeroSection"
 import StatusDashboard from "@/components/StatusDashboard"
 import WhatsNewSection from "@/components/WhatsNewSection"
 import ExperienceCenter from "@/components/ExperienceCenter"
+import NewsTicker from "@/components/NewsTicker"
+import ScrollStory from "@/components/ScrollStory"
 
 export default function Home() {
   return (
     <main className="overflow-x-hidden">
+      <NewsTicker />
       <HeroSection />
+      <ScrollStory />
       <StatusDashboard />
       <WhatsNewSection />
       <ExperienceCenter />
